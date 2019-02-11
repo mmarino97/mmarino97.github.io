@@ -1,0 +1,42 @@
+
+body {
+  background-image: url("1.jpg");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  background-size: cover;
+  margin:0;
+  padding:0px;
+  width:768px;
+  height: 1024px;
+}
+
+.typeface {
+  font-family: "regulator-nova", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.typeface h2{
+  font-size: 88px;
+  font-weight: 900;
+}
+
+.typeface h3 {
+  font-size: 88px;
+  filter: blur(10px);
+  color: white;
+  position: absolute;
+  top: -6px;
+  left: 44px;
+  z-index: -1;
+}
+
+.typeface h4{
+  font-size: 55px;
+  font-weight: 900;
+  color: #FF0000;
+}
