@@ -82,7 +82,7 @@ body {
   position: absolute;
   top: 138px;
   right: 10px;
-  z-index: 6;
+  z-index: 30;
 }
 
 #button img {
@@ -99,9 +99,16 @@ body {
   color: #000000;
   position: absolute;
   top: 173px;
-  right:36px;
-  z-index: 7;
+  right:35px;
+  z-index: 35;
   transform: rotate(-17deg);
+}
+
+.analysis {
+  position: absolute;
+  z-index: 20;
+  top: -23px;
+  left: -26px;
 }
 
 .flexy-box-top {
