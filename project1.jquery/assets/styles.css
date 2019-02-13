@@ -98,8 +98,8 @@ body {
   font-size: 16px;
   color: #000000;
   position: absolute;
-  top: 173px;
-  right:35px;
+  top: 38px;
+  right:25px;
   z-index: 35;
   transform: rotate(-17deg);
 }
