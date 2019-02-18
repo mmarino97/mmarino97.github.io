@@ -27,11 +27,12 @@ body {
 
 .typeface h3 {
   font-size: 88px;
-  filter: blur(10px);
-  color: white;
+  color: #006CFF;
+  opacity: .5;
+  text-shadow: 3px 3px #00e7ff;
   position: absolute;
-  top: -6px;
-  left: 44px;
+  top: -15px;
+  left: 56px;
   z-index: -1;
 }
 
@@ -39,4 +40,16 @@ body {
   font-size: 55px;
   font-weight: 900;
   color: #FF0000;
+}
+
+.typeface h5 {
+  font-size: 3.4em;
+  font-weight: 900;
+  color: #006CFF;
+  opacity: .5;
+  text-shadow: 3px 3px #00e7ff;
+  position: absolute;
+  top: 229px;
+  left: 200px;
+  z-index: -1;
 }
