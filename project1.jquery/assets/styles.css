@@ -45,6 +45,7 @@ body {
 .circle {
   background-color: black;
   border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, .1);
   width: 300px;
   height: 300px;
   padding: 10px;
@@ -52,8 +53,10 @@ body {
   position: relative;
   top: -500px;
   left: 210px;
-  z-index: 20
+  z-index: 20;
 }
+
+
 
 .super-z {
   font-family: "regulator-nova", sans-serif;
