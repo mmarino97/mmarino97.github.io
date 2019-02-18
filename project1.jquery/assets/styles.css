@@ -34,12 +34,13 @@ body {
   text-shadow: -2px -2px rgba(0, 231, 255, .5);
 }
 
-
 .typeface h3{
   font-size: 55px;
   font-weight: 900;
   color: #FF0000;
   text-shadow: -2px -2px rgba(0, 231, 255, .5);
+  margin-top: -12px;
+  margin-bottom: 10px;
 }
 
 .circle {
@@ -55,8 +56,6 @@ body {
   left: 210px;
   z-index: 20;
 }
-
-
 
 .super-z {
   font-family: "regulator-nova", sans-serif;
@@ -148,7 +147,7 @@ body {
 }
 
 .info p{
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .flexy-box-bottom {
@@ -180,7 +179,6 @@ body {
 .explain h4:first-of-type {
   margin-top: 0;
 }
-
 
 .sources {
   background-color: black;
