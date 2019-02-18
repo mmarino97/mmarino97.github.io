@@ -108,8 +108,8 @@ body {
 .analysis {
   position: absolute;
   z-index: 20;
-  top: 16px;
-  left: 26px;
+  top: -25px;
+  left: -29px;
 }
 
 .flexy-box-top {
@@ -125,7 +125,8 @@ body {
   padding: 10px;
   font-family: "regulator-nova", sans-serif;
   font-weight: 900;
-  font-size: 48px;
+  font-size: 51px;
+  line-height: 45px;
   color: #FFF500;
 }
 
@@ -140,6 +141,11 @@ body {
   font-style: normal;
   color: #FFFFFF;
   font-size: 14px;
+  line-height: 15px;
+}
+
+.info p{
+  margin-bottom: 10px;
 }
 
 .flexy-box-bottom {
@@ -147,7 +153,7 @@ body {
   justify-content: center;
 }
 
-.me {
+.explain {
   background-color: black;
   width: 325px;
   height: 327px;
@@ -156,19 +162,20 @@ body {
   font-family: "ccmeanwhile", sans-serif;
   font-weight: 400;
   font-style: normal;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
-.me h4 {
+.explain h4 {
   font-size: 13px;
   color: #FFF500;
-  margin-bottom: -20px;
+  margin-top: 20px;
 }
 
-.me p {
+.explain p {
   font-size: 11px;
   color: #FFFFFF;
+  margin-top: 2px;
+}
+.explain h4:first-of-type {
+  margin-top: 0;
 }
 
 
@@ -185,6 +192,12 @@ body {
   word-wrap: break-word;
 }
 
+.sources h4 {
+  color: #FFF500;
+}
+.sources p{
+  margin: 10px 0;
+}
 a {
   color: #efef8a;
 }

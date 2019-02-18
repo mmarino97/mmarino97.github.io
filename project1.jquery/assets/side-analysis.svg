@@ -1,1 +1,36 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314 323.87"><defs><style>.cls-1,.cls-2{fill:none;stroke-miterlimit:10;}.cls-1{stroke:#fff;stroke-linecap:round;stroke-width:3px;}.cls-2{stroke:#f7941d;stroke-width:0.5px;}</style></defs><title>side-analysis</title><line class="cls-1" x1="69.88" y1="1.5" x2="1.5" y2="322.37"/><line class="cls-1" x1="312.5" y1="1.5" x2="241.11" y2="322.37"/><path class="cls-2" d="M370.64,199.3" transform="translate(-116.47 -101.72)"/><path class="cls-2" d="M289.26,199.3" transform="translate(-116.47 -101.72)"/><path class="cls-2" d="M253.57,330.1" transform="translate(-116.47 -101.72)"/><path class="cls-2" d="M172.19,330.1" transform="translate(-116.47 -101.72)"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="576px"
+	 height="576px" viewBox="0 0 576 576" style="enable-background:new 0 0 576 576;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:none;}
+	.st3{display:none;fill:#ED1C24;}
+	.st4{font-family:'RegulatorNova-HeavyItalic';}
+	.st5{font-size:400px;}
+	.st6{display:none;fill:none;stroke:#FFF200;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st8{display:none;fill:none;stroke:#F7941D;stroke-width:0.5;stroke-miterlimit:10;}
+	.st9{display:none;fill:none;stroke:#416CB4;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g id="Layer_2" class="st0">
+	<rect class="st1" width="576" height="576"/>
+</g>
+<g id="Layer_1">
+	<rect x="123.24" y="119.82" class="st2" width="356.06" height="336.36"/>
+	<text transform="matrix(1 0 0 1 123.2426 392.6151)" class="st3 st4 st5">Z</text>
+	<line class="st6" x1="480.39" y1="328.36" x2="91.58" y2="328.36"/>
+	<line class="st6" x1="480.39" y1="394.07" x2="91.58" y2="394.07"/>
+	<line class="st6" x1="480.39" y1="200.91" x2="91.58" y2="200.91"/>
+	<line class="st6" x1="480.39" y1="135.13" x2="91.58" y2="135.13"/>
+	<line class="st7" x1="186.35" y1="103.22" x2="117.97" y2="424.09"/>
+	<line class="st7" x1="428.97" y1="103.22" x2="357.58" y2="424.09"/>
+	<path class="st8" d="M370.64,199.3"/>
+	<path class="st8" d="M289.26,199.3"/>
+	<path class="st8" d="M253.57,330.1"/>
+	<path class="st8" d="M172.19,330.1"/>
+	<line class="st9" x1="174.39" y1="424.91" x2="456.53" y2="104.04"/>
+	<line class="st9" x1="87.81" y1="423.04" x2="374.19" y2="102.17"/>
+</g>
+</svg>
