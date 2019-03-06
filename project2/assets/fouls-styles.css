@@ -1,27 +1,3 @@
-body{
-  background-color: #F2F8FC;
-}
-
-a{
-  color: #000000;
-}
-a:hover {
-  text-decoration: none;
-}
-
-.header {
-  background-color: #DCE1E5;
-  width: 768px;
-  height:115px;
-  margin: 20px auto;
-}
-.header h1 {
-  margin: 10px;
-}
-.header h2 {
-  margin: 10px;
-}
-
 .video {
   background-color: #DCE1E5;
   width: 512px;
@@ -48,14 +24,4 @@ a:hover {
   margin: 20px auto;
   display: flex;
   justify-content: space-around;
-}
-
-.footer {
-  background-color: #DCE1E5;
-  width: 768px;
-  height:55px;
-  margin: 20px auto;
-}
-.footer a{
-  margin: 10px;
 }

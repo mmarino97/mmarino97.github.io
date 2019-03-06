@@ -2,17 +2,30 @@ body{
   background-color: #F2F8FC;
 }
 
+a{
+  color: #000000;
+}
+a:hover {
+  text-decoration: none;
+}
+
 .header {
   background-color: #DCE1E5;
   width: 768px;
   height:115px;
   margin: 20px auto;
+  position: relative;
 }
 .header h1{
   margin: 10px;
 }
 .header h2 {
   margin: 10px;
+}
+.header a{
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .sports-choice {
@@ -61,6 +74,7 @@ a:hover {
   height:55px;
   margin: 20px auto;
 }
-.footer a{
+.footer p{
   margin: 10px;
+  padding: 10px;
 }
