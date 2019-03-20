@@ -1,0 +1,27 @@
+.video {
+  background-color: #DCE1E5;
+  width: 512px;
+  height:288px;
+  margin: 20px auto;
+}
+
+.description{
+  background-color: #DCE1E5;
+  width: 768px;
+  margin: 20px auto;
+}
+.description h4{
+  margin: 10px;
+}
+.description p{
+  margin: 10px;
+}
+
+.similar {
+  background-color: #DCE1E5;
+  width: 768px;
+  height:100px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}

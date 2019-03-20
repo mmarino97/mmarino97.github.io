@@ -1,80 +1,123 @@
 body{
-  background-color: #F2F8FC;
+  background-color: #538336;
 }
 
-a{
-  color: #000000;
 }
 a:hover {
   text-decoration: none;
 }
 
 .header {
-  background-color: #DCE1E5;
   width: 768px;
-  height:115px;
+  height:150px;
   margin: 20px auto;
   position: relative;
 }
 .header h1{
   margin: 10px;
+  font-family: rogue-sans-condensed, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 100px;
+  text-align: center;
 }
 .header h2 {
-  margin: 10px;
+  margin-top: -20px;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, .8);
 }
 .header a{
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: -2px;
+  right: 0px;
+  color: rgba(255, 255, 255, .8);
 }
 
 .sports-choice {
-  background-color: #DCE1E5;
   width: 565px;
   height: 458px;
   margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sports-choice h2 {
+  font-size: 30px;
+  font-weight: 400;
 }
 
-
-ul {
+.sports-choice ul {
   list-style: none;
   padding-left: 0;
   padding-right: 40px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  font-size: 30px;
 }
 
-a {
+.sports-choice a {
   color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
 }
-a:hover {
+.sports-choice a:hover {
   text-decoration: none;
 }
+.sports-choice a img {
+  margin-bottom: 10px;
+}
 
-.fouls-box {
-  margin: 20px auto;
+.fouls-box1 {
+  margin: 10px auto;
   width: 768px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
+}
+
+.fouls-box2 {
+  margin: 10px auto;
+  width: 768px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.fouls-box3 {
+  margin: 10px auto;
+  width: 768px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 
 .fouls {
-  margin: 15px;
-  width: 155px;
+  margin: 30px auto;
+  width: 200px;
   height: 155px;
+}
+.fouls a{
   text-align: center;
-  background-color: #DCE1E5;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #E2B82A;
 }
-
-.footer {
-  background-color: #DCE1E5;
-  width: 768px;
-  height:55px;
-  margin: 20px auto;
-}
-.footer p{
-  margin: 10px;
-  padding: 10px;
+.fouls a:hover{
+  text-decoration: none;
 }

@@ -1,0 +1,80 @@
+body{
+  background-color: #F2F8FC;
+}
+
+a{
+  color: #000000;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #DCE1E5;
+  width: 768px;
+  height:115px;
+  margin: 20px auto;
+  position: relative;
+}
+.header h1{
+  margin: 10px;
+}
+.header h2 {
+  margin: 10px;
+}
+.header a{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.sports-choice {
+  background-color: #DCE1E5;
+  width: 565px;
+  height: 458px;
+  margin: 20px auto;
+}
+
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+a {
+  color: #000000;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.fouls-box {
+  margin: 20px auto;
+  width: 768px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fouls {
+  margin: 15px;
+  width: 155px;
+  height: 155px;
+  text-align: center;
+  background-color: #DCE1E5;
+}
+
+.footer {
+  background-color: #DCE1E5;
+  width: 768px;
+  height:55px;
+  margin: 20px auto;
+}
+.footer p{
+  margin: 10px;
+  padding: 10px;
+}

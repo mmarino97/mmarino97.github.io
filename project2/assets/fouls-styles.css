@@ -1,27 +1,60 @@
 .video {
-  background-color: #DCE1E5;
   width: 512px;
   height:288px;
   margin: 20px auto;
 }
-
+h4{
+  margin-left: 10px;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #E2B82A;
+}
 .description{
-  background-color: #DCE1E5;
   width: 768px;
   margin: 20px auto;
 }
-.description h4{
-  margin: 10px;
-}
 .description p{
-  margin: 10px;
+  margin: -25px auto 20px 10px;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, .8);
+}
+.primary{
+  margin: -25px auto 20px 10px;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, .8);
+  list-style: lower-alpha;
+}
+.secondary{
+  list-style: decimal;
 }
 
 .similar {
-  background-color: #DCE1E5;
   width: 768px;
   height:100px;
-  margin: 20px auto;
+  margin: -20px auto;
   display: flex;
   justify-content: space-around;
+}
+
+.similar a{
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: rgba(240, 195, 42, .8);
+}
+.similar a:hover{
+  text-decoration: none;
 }
