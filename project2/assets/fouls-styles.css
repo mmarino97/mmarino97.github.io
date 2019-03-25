@@ -24,7 +24,6 @@ em {
 }
 
 .description{
-  width: 768px;
   margin: 20px auto;
 }
 .description p{
@@ -54,7 +53,6 @@ em {
 
 .similar {
   width: 768px;
-  height:100px;
   margin: -20px auto;
   display: flex;
   justify-content: space-around;

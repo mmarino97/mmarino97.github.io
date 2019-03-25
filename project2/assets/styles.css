@@ -89,32 +89,14 @@ a:hover {
   text-decoration: none;
 }
 
-.fouls-box1 {
+.fouls-box {
   margin: 10px auto;
   width: 768px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
 }
 
-.fouls-box2 {
-  margin: 10px auto;
-  width: 768px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-}
-
-.fouls-box3 {
-  margin: 10px auto;
-  width: 768px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-}
 
 .fouls {
   margin: 30px auto;
