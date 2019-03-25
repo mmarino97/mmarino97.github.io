@@ -1,5 +1,9 @@
+*{
+  margin: 0 auto;
+}
 body{
   background-color: #538336;
+  width: 728px;
 }
 
 }
@@ -40,6 +44,17 @@ a:hover {
   right: 0px;
   color: rgba(255, 255, 255, .8);
 }
+.header a:hover{
+  text-decoration: none;
+}
+
+.ncaa {
+  text-align: center;
+}
+
+.professional{
+  text-align: center;
+}
 
 .sports-choice {
   width: 565px;
@@ -59,7 +74,6 @@ a:hover {
 .sports-choice ul {
   list-style: none;
   padding-left: 0;
-  padding-right: 40px;
   font-size: 30px;
 }
 
@@ -73,9 +87,6 @@ a:hover {
 }
 .sports-choice a:hover {
   text-decoration: none;
-}
-.sports-choice a img {
-  margin-bottom: 10px;
 }
 
 .fouls-box1 {
@@ -107,6 +118,7 @@ a:hover {
 
 .fouls {
   margin: 30px auto;
+  padding: 20px;
   width: 200px;
   height: 155px;
 }
@@ -120,4 +132,8 @@ a:hover {
 }
 .fouls a:hover{
   text-decoration: none;
+}
+
+.footer{
+  height: 40px;
 }
