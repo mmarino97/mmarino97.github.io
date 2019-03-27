@@ -118,4 +118,34 @@ a:hover {
 
 .footer{
   height: 40px;
+  position: relative;
+}
+.footer a{
+  text-align: right;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #E2B82A;
+  position: absolute;
+  right: 0px;
+  top: 15px;
+}
+.footer a:hover{
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.sources a {text-align: center;
+font-family: alternate-gothic-no-3-d, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+color: #E2B82A;
+}
+.sources a:hover{
+text-decoration: none;
 }
