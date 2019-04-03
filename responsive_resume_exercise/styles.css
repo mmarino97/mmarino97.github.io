@@ -4,7 +4,6 @@ body{
   font-style: normal;
   width: 375px;
   margin: 0 auto 30px auto;
-  padding: 0 5% 0 5%;
 }
 
 h1 {
@@ -84,6 +83,10 @@ em{
   margin-bottom: 2px;
 }
 
+.content{
+  padding: 0 5% 0 5%;
+}
+
 .job-header{
   display: flex;
   justify-content: space-between;
@@ -124,6 +127,7 @@ em{
   }
   .content{
     display: flex;
+    padding: 0px;
   }
   .left{
     background-color: #41AD4915;
