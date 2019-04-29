@@ -112,9 +112,9 @@ a, a:hover{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 75vh;
-  margin: 20px 0 20px 0;
+  background-size: contain;
+  height: 500px;
+  margin: 100px 0 100px 0;
   position: relative;
 }
 
