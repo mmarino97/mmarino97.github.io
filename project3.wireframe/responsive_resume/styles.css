@@ -1,0 +1,145 @@
+body{
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  width: 375px;
+  margin: 0 auto 30px auto;
+}
+
+h1 {
+  font-size: 2.18em;
+  font-weight: 500;
+  color: #2B3990;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+h2{
+  font-size: 1.5em;
+  color: #41AD49;
+  margin-bottom: -.625em;
+  margin-top: 1.25em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.25em;
+  color: #2B3990;
+  font-weight: 500;
+  margin-bottom: -.625em;
+  margin-top: .625em;
+}
+
+h4 {
+  font-size: .9em;
+  color: #2B3990;
+  font-weight: 500;
+  margin-bottom: -.625em;
+  margin-top: .625em;
+}
+
+h5 {
+  font-size: .9em;
+  color: #41AD49;
+  font-weight: 500;
+  margin-bottom: -1.3em;
+}
+a {
+  color:#41AD49;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+a:hover {
+  color:#41AD49;
+  text-decoration: none;
+}
+
+p {
+  font-size: .9em;
+  color: #2B3990;
+  margin-bottom: -.625em;
+}
+
+ul {
+  font-size: .8em;
+  color: #2B3990;
+}
+
+em{
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.header #contact{
+  display: none;
+}
+
+.line {
+  background-color: #2B3990;
+  width: 100%;
+  height: 2px;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, .37));
+  margin-bottom: 2px;
+}
+
+.content{
+  padding: 0 5% 0 5%;
+}
+
+.job-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-header-right{
+  text-align: right;
+}
+
+.footer{
+  margin-top: 2em;
+}
+
+#contact-footer{
+  padding: 0 5% 10% 5%;
+}
+
+
+@media only screen and (min-width: 960px){
+  body{
+    width: 960px;
+  }
+  .header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .header #contact{
+    display: flex;
+  }
+  .header #contact h5{
+    margin-left: 2em;
+  }
+
+  .footer{
+    height: 10%;
+    margin-top: 1em;
+  }
+
+  #contact-footer{
+    display: none;
+  }
+  .content{
+    display: flex;
+    padding: 0px;
+  }
+
+  .left{
+    background-color: #41AD4915;
+    width: 33%;
+    padding: 0 1.24em 2em 1.24em;
+  }
+  .right{
+    padding: 0 1.24em 0 1.24em;
+  }
+}
