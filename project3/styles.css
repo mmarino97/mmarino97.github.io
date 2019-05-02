@@ -116,7 +116,6 @@ a, a:hover{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
   height: 500px;
   margin: 0;
   position: relative;
@@ -165,6 +164,11 @@ footer{
   justify-content: space-around;
 }
 
+@media (hover: none) {
+   .homeHero {
+       background-attachment: initial;
+   }
+}
 
 
 @media only screen and (min-width: 768px){
