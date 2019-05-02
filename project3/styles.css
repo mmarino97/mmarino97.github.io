@@ -40,7 +40,7 @@ h2{
 
 a, a:hover{
   text-decoration: none;
-  color: black;
+  color: #2A3890;
 }
 
 .project{
@@ -99,6 +99,7 @@ a, a:hover{
 
 .link {
   height: 15px;
+  margin: 30px;
 }
 .link h4 {
   position: absolute;
@@ -112,18 +113,35 @@ a, a:hover{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 500px;
-  margin: 100px 0 100px 0;
+  margin: 0;
   position: relative;
+}
+
+.parallax img{
+  display: none;
 }
 
 .parallax p{
   position: absolute;
+  width: 50%;
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  color: #2A3890;
   top: 50%;
   transform: translate(-50%, -50%);
   left: 50%;
-  margin-right: -50%;
+  outline: #40AD49 10px solid;
+}
+
+.line{
+  display: none;
+}
+
+h3 {
+  display: none;
 }
 
 #description {
@@ -137,7 +155,6 @@ a, a:hover{
 p{
   margin: 20px;
   text-align: justify;
-  background-color: #DEDEDE;
 }
 
 footer{
@@ -162,10 +179,7 @@ footer{
     margin: 20px;
   }
 
-  p{
-    width: 80%;
-    margin: 40px auto 40px auto;
-  }
+
 
 }
 
@@ -208,6 +222,52 @@ footer{
       margin-bottom: 10px;
     }
 
+    .parallax {
+      background-color: white;
+      background-image: none !important;
+      height: auto;
+      width: 100vp;
+      overflow: hidden;
+    }
 
+    .parallax img{
+      display: block;
+      position: relative;
+      width: 45%;
+      max-width: 600px;
+      margin-left: 15%;
+      z-index: 2;
+      margin-bottom: 80px;
+    }
+
+    .parallax p{
+      position: absolute;
+      left: 67%;
+      top: 50%;
+      width: 30%;
+      z-index: 3;
+    }
+
+    strong{
+      display: none;
+    }
+
+    h3 {
+      display: block;
+      position: absolute;
+      top: 10%;
+      left: 62%;
+      color: #2A3890;
+    }
+
+    .line {
+      display: block;
+      background-color: #40AD49;
+      height: 2px;
+      width: 75%;
+      position: absolute;
+      top: 13.5%;
+      left: 55%;
+    }
 
 }
