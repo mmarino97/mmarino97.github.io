@@ -186,6 +186,8 @@ footer{
 }
 
 @media only screen and (min-width: 960px){
+
+
     .navbar{
       width: 50%;
     }
@@ -241,13 +243,13 @@ footer{
       max-width: 600px;
       margin-left: 15%;
       z-index: 2;
-      margin-bottom: 80px;
+      margin-bottom: 200px;
     }
 
     .parallax p{
       position: absolute;
-      left: 67%;
-      top: 50%;
+      left: 50%;
+      top: 30%;
       width: 30%;
       z-index: 3;
     }
