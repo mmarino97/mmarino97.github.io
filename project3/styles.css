@@ -96,8 +96,7 @@ a, a:hover{
 }
 
 .head h2{
-  font-size: 85px;
-
+  font-size: 75px;
 }
 
 .link {
@@ -178,6 +177,10 @@ footer{
     margin: 20px;
     display: flex;
     justify-content: space-between;
+  }
+
+  .head h2{
+    font-size: 100px;
   }
 
   .navbar{
