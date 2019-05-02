@@ -165,7 +165,7 @@ footer{
 }
 
 @media (hover: none) {
-   .homeHero {
+   .parallax {
        background-attachment: initial;
    }
 }
