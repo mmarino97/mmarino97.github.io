@@ -162,6 +162,59 @@ p{
 footer{
   display: flex;
   justify-content: space-around;
+  margin-top: 20px;
+}
+
+i{
+  font-size: 30px;
+}
+
+#twitter h5{
+  visibility: hidden;
+}
+#twitter:hover h5{
+  visibility: visible;
+  position: relative;
+  top: -25px;
+}
+#twitter:hover i{
+  opacity: .2;
+}
+
+#linkedin h5{
+  visibility: hidden;
+}
+#linkedin:hover h5{
+  visibility: visible;
+  position: relative;
+  top: -25px;
+}
+#linkedin:hover i{
+  opacity: .2;
+}
+
+#instagram h5{
+  visibility: hidden;
+}
+#instagram:hover h5{
+  visibility: visible;
+  position: relative;
+  top: -25px;
+}
+#instagram:hover i{
+  opacity: .2;
+}
+
+#fullportfolio h5{
+  visibility: hidden;
+}
+#fullportfolio:hover h5{
+  visibility: visible;
+  position: relative;
+  top: -25px;
+}
+#fullportfolio:hover i{
+  opacity: .2;
 }
 
 @media (hover: none) {
