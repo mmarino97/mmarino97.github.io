@@ -62,12 +62,15 @@ a, a:hover{
 
 
 .project img{
-  position: absolute;
   top:0px;
   right:0px;
-  max-width: 300%;
-  max-height: 560px;
+  width: 100%;
   justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  margin-right: -50%;
   z-index: -5;
 }
 
@@ -82,7 +85,6 @@ a, a:hover{
 }
 
 .head video{
-  position: absolute;
   width: 100%;
   justify-content: center;
   z-index: -5;
@@ -205,6 +207,8 @@ footer{
 
     .project img {
       visibility: hidden;
+      width: auto;
+      height: 100%;
     }
     .project:hover img{
       visibility: visible;
