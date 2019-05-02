@@ -150,8 +150,8 @@ h3 {
   background-image: url(images/project1.png);
 }
 
-#step2 {
-  background-image: url(images/project1_process2.png);
+#step3 {
+  background-image: url(images/project1_process3.png);
 }
 
 p{
@@ -184,6 +184,14 @@ footer{
 
 
 }
+
+@media only screen and (max-width: 959px) {
+#ci-hero-11 .widget-wrap , #ci-hero-12 .widget-wrap {
+
+    background-attachment: initial;
+
+}
+
 
 @media only screen and (min-width: 960px){
 
