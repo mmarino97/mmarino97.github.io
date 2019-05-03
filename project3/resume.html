@@ -3,26 +3,91 @@
   <head>
     <meta charset="utf-8">
     <title>Maggie Marino's Resume</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/lfz3tyn.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <header>
+    <style>
+    header{
+      margin: 0px;
+      padding: 0px;
+      font-family: "futura-pt", sans-serif;
+      font-weight: 500px;
+    }
+
+    header a{
+      text-decoration: none;
+    }
+
+    h1{
+      margin-top: 30px;
+      margin-bottom: 20px;
+      color: #2A3890;
+    }
+
+    .navbar h5{
+      color: #2A3890;
+    }
+
+    .navbar{
+      display: flex;
+      justify-content: space-around;
+    }
+    #not-active-page:hover{
+      text-decoration: line-through;
+      color: #2A3890;
+    }
+    #active-page{
+      text-decoration: line-through;
+      color: #2A3890;
+    }
+
+    .navbar a, a:hover{
+      text-decoration: none;
+      color: #2A3890;
+    }
+
+    @media only screen and (min-width: 768px){
+      header {
+        margin: 20px;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .navbar{
+        margin: inherit;
+        }
+      .navbar h5{
+        margin: 20px;
+      }
+
+    @media only screen and (min-width: 960px){
+        .navbar{
+          width: 50%;
+        }
+      }
+    }
+    </style>
     <a href="index.html"><h1>Maggie Ann Marino</h1></a>
     <div class="navbar">
       <a href="index.html" id="not-active-page"><h5>Projects</h5></a>
-      <a href="#" id="not-active-page"><h5>About</h5></a>
+      <a href="about.html" id="not-active-page"><h5>About</h5></a>
       <a href="resume.html" id="active-page"><h5>Resume</h5></a>
     </div>
   </header>
   <body>
     <style>
+      *{
+        text-align: left;
+      }
       body{
         font-family: futura-pt, sans-serif;
         font-weight: 500;
         font-style: normal;
-        width: 375px;
-        margin: 0 auto 30px auto;
+        width: 100%;
+        margin: 0 20px 30px 20px;
       }
 
       h1 {
@@ -90,18 +155,6 @@
         font-weight: 400;
       }
 
-      .header #contact{
-        display: none;
-      }
-
-      .line {
-        background-color: #2B3990;
-        width: 100%;
-        height: 2px;
-        filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, .37));
-        margin-bottom: 2px;
-      }
-
       .content{
         padding: 0 5% 0 5%;
       }
@@ -120,24 +173,16 @@
       }
 
       #contact-footer{
+        display: flex;
+        justify-content: space-between;
         padding: 0 5% 10% 5%;
       }
 
 
-      @media only screen and (min-width: 960px){
+      @media only screen and (min-width: 768px){
         body{
-          width: 960px;
-        }
-        .header{
-          display: flex;
-          align-items: baseline;
-          justify-content: space-between;
-        }
-        .header #contact{
-          display: flex;
-        }
-        .header #contact h5{
-          margin-left: 2em;
+          width: 95%;
+          margin: 0 2% 0 2%;
         }
 
         .footer{
@@ -145,9 +190,6 @@
           margin-top: 1em;
         }
 
-        #contact-footer{
-          display: none;
-        }
         .content{
           display: flex;
           padding: 0px;
@@ -163,16 +205,6 @@
         }
       }
     </style>
-    <div class="header">
-      <h1>Maggie Ann Marino</h1>
-      <div id="contact">
-        <h5>Notre Dame, IN 46556</h5>
-        <h5>(914) 263-8080</h5>
-        <h5>mamarino1997@gmail.com</h5>
-        <h5><a href="https://www.maggieannmarino.com" target="_blank">www.maggieannmarino.com</a></h5>
-      </div>
-    </div>
-    <div class="line"></div>
     <div class="content">
       <div class="left">
         <div class="summary">
@@ -303,8 +335,6 @@
     </div>
 
     <div class="footer">
-      <div class="line"></div>
-      <div class="line"></div>
       <div id="contact-footer">
         <h5>Notre Dame, IN 46556</h5>
         <h5>(914) 263-8080</h5>
@@ -316,25 +346,96 @@
   </body>
 
   <footer>
-    <div class="social-media">
-      <a href="https://www.maggieannmarino.com/" target="_blank"><img src="" alt="">
+    <style>
+    footer{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    i{
+      font-size: 30px;
+      color: #2B3990;
+    }
+
+    #twitter h5{
+      visibility: hidden;
+      color: #2B3990;
+    }
+    #twitter:hover h5{
+      visibility: visible;
+      position: relative;
+      top: -50px;
+      left: -5px;
+    }
+    #twitter:hover i{
+      opacity: .2;
+    }
+
+    #linkedin h5{
+      visibility: hidden;
+      color: #2B3990;
+    }
+    #linkedin:hover h5{
+      visibility: visible;
+      position: relative;
+      top: -50px;
+      left: -12px;
+    }
+    #linkedin:hover i{
+      opacity: .2;
+    }
+
+    #instagram h5{
+      visibility: hidden;
+      color: #2B3990;
+    }
+    #instagram:hover h5{
+      visibility: visible;
+      position: relative;
+      top: -50px;
+      left: -15px;
+    }
+    #instagram:hover i{
+      opacity: .2;
+    }
+
+    #fullportfolio h5{
+      visibility: hidden;
+      color: #2B3990;
+    }
+    #fullportfolio:hover h5{
+      visibility: visible;
+      position: relative;
+      top: -50px;
+      left: -15px;
+    }
+    #fullportfolio:hover i{
+      opacity: .2;
+    }
+    </style>
+    <div class="social-media" id="fullportfolio">
+      <a href="https://www.maggieannmarino.com/" target="_blank">
+        <i class="fas fa-desktop"></i>
         <h5>Full Porfolio</h5>
         </a>
     </div>
-    <div class="social-media">
-      <a href="https://www.instagram.com/mmarino97/" target="_blank"><img src="" alt="">
+    <div class="social-media" id="instagram">
+      <a href="https://www.instagram.com/mmarino97/" target="_blank">
+        <i class="fab fa-instagram"></i>
         <h5>Instagram</h5>
         </a>
     </div>
-    <div class="social-media">
-      <a href="https://www.linkedin.com/in/maggie-marino/" target="_blank"><img src="" alt="">
+    <div class="social-media" id="linkedin">
+      <a href="https://www.linkedin.com/in/maggie-marino/" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
         <h5>LinkedIn</h5>
         </a>
     </div>
-    <div class="social-media">
-      <a href="https://twitter.com/M19A10M" target="_blank"><img src="" alt="">
+    <div class="social-media" id="twitter">
+      <a href="https://twitter.com/M19A10M" target="_blank">
+        <i class="fab fa-twitter"></i>
         <h5>Twitter</h5>
         </a>
-    </div>
   </footer>
 </html>

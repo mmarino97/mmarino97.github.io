@@ -44,34 +44,44 @@ a, a:hover{
 }
 
 .project{
-  background-color: #2A389070;
-  width: 100%;
-  height: 560px;
-  margin-bottom: 30px;
   position: relative;
   overflow: hidden;
-}
-
-.project h2{
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  margin-right: -50%;
-}
-
-
-.project img{
-  top:0px;
-  right:0px;
   width: 100%;
-  justify-content: center;
+  height: 560px;
+  margin-bottom: 40px;
+}
+
+#project1{
+  background: url(images/project1_bw.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#project2{
+  background: url(images/project2.2.bw.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#project3{
+  background: url(images/thesis1_bw.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.title{
+  position: absolute;
+  height: 560px;
+  display: block;
+  width: 100%;
+  background-color: #2A389070;
+}
+
+.title h2{
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
   left: 50%;
-  margin-right: -50%;
-  z-index: -5;
 }
 
 .head{
@@ -97,6 +107,7 @@ a, a:hover{
 
 .head h2{
   font-size: 75px;
+  letter-spacing: .2em;
 }
 
 .link {
@@ -125,6 +136,10 @@ a, a:hover{
   display: none;
 }
 
+.parallax img{
+  display: none;
+}
+
 .parallax p{
   position: absolute;
   width: 50%;
@@ -146,17 +161,136 @@ h3 {
   display: none;
 }
 
-#description {
+.parallax a{
+  color: #40AD49;I
+}
+
+.parallax a:hover{
+  text-decoration: line-through;
+}
+
+#letterform-description {
   background-image: url(images/project1.png);
 }
 
-#step3 {
+#letterform-step1{
+  background-image: url(images/project1_process1.png);
+}
+
+#letterform-step2{
+  background-image: url(images/project1_process2.png);
+}
+
+#letterform-step3 {
   background-image: url(images/project1_process3.png);
+}
+
+#letterform-step4 {
+  background-image: url(images/project1_process4.png);
+}
+
+#letterform-step5 {
+  background-image: url(images/project1_process5.png);
+}
+
+#learningtool-homepage {
+  background-image: url(images/project2.1.png);
+}
+
+#learningtool-ncaafootball {
+  background-image: url(images/project2.2.png);
+}
+
+#learningtool-foul {
+  background-image: url(images/project2.3.png);
+}
+
+#learningtool-step1 {
+  background-image: url(images/project2_process1.png);
+}
+
+#learningtool-step2 {
+  background-image: url(images/project2_process2.png);
+}
+
+#learningtool-step3 {
+  background-image: url(images/project2_process3.mp4);
+}
+
+#learningtool-step4 {
+  background-image: url(images/project2_process4.png);
+}
+
+#learningtool-step5 {
+  background-image: url(images/project2_process5.png);
+}
+
+#learningtool-step6 {
+  background-image: url(images/project2_process6.png);
+}
+
+#learningtool-step7 {
+  background-image: url(images/project2_process7.png);
+}
+
+#thesis-display {
+  background-image: url(images/thesis_display.png);
+}
+
+#thesis-homepage {
+  background-image: url(images/thesis1.png);
+}
+
+#thesis-step1 {
+  background-image: url(images/thesis_process1.png);
+}
+
+#thesis-step2 {
+  background-image: url(images/thesis_process2.png);
+}
+
+#thesis-step3 {
+  background-image: url(images/thesis_process3.png);
+}
+
+#thesis-step4 {
+  background-image: url(images/thesis_process4.png);
+}
+
+#thesis-step5 {
+  background-image: url(images/thesis_process5.png);
+}
+
+#thesis-step6 {
+  background-image: url(images/thesis_process6.png);
+}
+
+#thesis-step7 {
+  background-image: url(images/thesis_process7.png);
 }
 
 p{
   margin: 20px;
   text-align: justify;
+}
+
+
+.flex img{
+  object-fit: contain;
+  width: 30%;
+}
+
+
+.block {
+  display: block;
+  margin-top: 20px;
+  color: #2A3890;
+}
+.block a{
+  color: #40AD49;
+}
+.block a:hover{
+  text-decoration: line-through;
 }
 
 footer{
@@ -267,23 +401,49 @@ i{
     .project{
       width: 34%;
       margin: 0;
-      background-color: #2A3890;
     }
 
-    .project img {
-      visibility: hidden;
-      width: auto;
-      height: 100%;
+    #project1{
+      background-image: none;
+      background-color: #2A3890;
     }
-    .project:hover img{
-      visibility: visible;
+    #project1:hover{
+      background: url(images/project1_bw.png);
+      background-position: center;
+      background-size: cover;
     }
-    .project:hover {
+
+    #project2{
+      background-image: none;
+      background-color: #2A3890;
+    }
+    #project2:hover{
+      background: url(images/project2.2.bw.png);
+      background-position: center;
+      background-size: cover;
+    }
+
+    #project3{
+      background-image: none;
+      background-color: #2A3890;
+    }
+    #project3:hover{
+      background: url(images/thesis1_bw.png);
+      background-position: center;
+      background-size: cover;
+    }
+
+    .title{
+      background-color: transparent;
+    }
+
+    .project:hover .title{
       background-color: #2A389070;
     }
 
     .head h2{
       font-size: 130px;
+      letter-spacing: .1em;
     }
 
     footer{
@@ -300,6 +460,16 @@ i{
     }
 
     .parallax img{
+      display: block;
+      position: relative;
+      width: 45%;
+      max-width: 600px;
+      margin-left: 15%;
+      z-index: 2;
+      margin-bottom: 200px;
+    }
+
+    .parallax video {
       display: block;
       position: relative;
       width: 45%;
@@ -337,6 +507,23 @@ i{
       position: absolute;
       top: 13.5%;
       left: 55%;
+    }
+
+    .flex{
+      display: flex;
+      justify-content: space-around;
+      margin: 20px;
+      height: 500px;
+    }
+
+    .flex img{
+      object-fit: contain;
+      width: 30%;
+    }
+
+    .block {
+      display: block;
+      margin-top: 20px;
     }
 
 }
